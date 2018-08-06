@@ -1,0 +1,69 @@
+.btn-circle {
+  background: #DCDCDC;
+  border: 1px solid #979797;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.50);
+  width: 70px;
+  height: 70px;
+  border-radius: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-circle:active {
+  background: #DCDCDC;
+  border: 0 solid #06113A;
+  box-shadow: inset 0 -1px 0 2px rgb(4, 13, 45, 0.8);
+  width: 72px;
+  height: 72px;
+  border-radius: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-txt {
+  font-family: Arial-Black;
+  font-size: 50px;
+  color: #FF0000;
+}
+
+#display-numbers {
+  font-family: Arial-Black;
+  font-size: 32px;
+  color: #F3F3F3;
+}
+
+#add-img{
+  height: 35px;
+}
+#minus-img{
+  height: 12px;
+  width: 28px;
+}
+#multiply-img{
+  height: 35px;
+}
+#divide-img{
+  height: 35px;
+}
+#undo-img{
+  height: 40px;
+}
+#clear-img{
+  height: 35px;
+}
+#backspace-img{
+  height: 25px;
+}
+#btn-decimal{
+  font-size: 40px;
+}
+#ce-img{
+  height: 28px;
+}
+#equals{
+  font-size: 55px;
+  color: #20d130;
+}

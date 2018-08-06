@@ -1,0 +1,10 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(253, 127, 32, 1) 91%);
+  font-weight: bold;
+  margin: 0 0;
+  padding: 0 0;
+  height: 100vh;
+}
+
+

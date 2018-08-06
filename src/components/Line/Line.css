@@ -1,0 +1,14 @@
+#display {
+  color: white;
+  font-size: 22px;
+}
+#cursor-div{
+  display: block;
+  color: #0E3BF3;
+}
+#dsp-line-2{
+  color: #F96535;
+}
+#dsp-line-3{
+  color: #F96535;
+}

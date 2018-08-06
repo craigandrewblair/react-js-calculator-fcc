@@ -1,0 +1,107 @@
+#outer-rectangle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8px;
+  background-image: linear-gradient(-180deg, #0EF30F 0%, #000000 80%);
+  border: 1px solid #000000;
+  box-shadow: 0 2px 4px 0 #000000;
+  border-radius: 8px;
+  height: 440px;
+  width: 420px;
+}
+
+#btns-rectangle {
+  display: flex;
+  flex-direction: row;
+  height: 360px;
+  width: 400px;
+  padding-top: 10px;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.btn-circle {
+  background: #DCDCDC;
+  border: 1px solid #979797;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.50);
+  width: 70px;
+  height: 70px;
+  border-radius: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-circle:active {
+  background: #DCDCDC;
+  border: 0 solid #06113A;
+  box-shadow: inset 0 -1px 0 2px rgb(4, 13, 45, 0.8);
+  width: 72px;
+  height: 72px;
+  border-radius: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-txt {
+  font-family: Arial-Black;
+  font-size: 50px;
+  color: #000000;
+}
+
+#display-numbers {
+  font-family: Arial-Black;
+  font-size: 32px;
+  color: #F3F3F3;
+}
+
+.btn-cancel-txt {
+  font-family: Arial-Black;
+  font-size: 60px;
+  color: #FF0000;
+}
+
+#plus-img{
+  height: 35px;
+}
+#minus-img{
+  height: 12px;
+  width: 28px;
+}
+#multiply-img{
+  height: 35px;
+}
+#divide-img{
+  height: 35px;
+}
+#undo-img{
+  height: 40px;
+}
+#cancel-img{
+  height: 35px;
+}
+#equals-img{
+  height: 24px;
+}
+#backspace-img{
+  height: 25px;
+  position: relative;
+  right: 2px;
+}
+#btn-decimal{
+  font-size: 40px;
+}
+#btn-ce{
+  font-size: 36px;
+  color: #0E3BF3;
+}
+#btn-ce span{
+  position: relative;
+  left: -1px;
+  top: -1px;
+}
+
+

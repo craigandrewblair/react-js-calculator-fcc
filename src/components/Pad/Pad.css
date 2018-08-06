@@ -1,0 +1,9 @@
+#pad-rectangle {
+  display: flex;
+  flex-direction: row;
+  height: 360px;
+  width: 400px;
+  padding-top: 10px;
+  flex-flow: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.Display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 0 5px 10px;
+  background: rgba(0, 0, 0, 0.90);
+  border: 1px solid#979797;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+  border-radius: 8px;
+  width: 400px;
+  height: 110px;
+  color: white;
+  font-size: 22px;
+}
